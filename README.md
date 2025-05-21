@@ -1,4 +1,4 @@
-🔍 # Detection of Hate Speech on Social Media using Machine Learning
+
 📌 Overview
 With the rise of social media usage worldwide, the freedom of expression online has also led to an increase in harmful and derogatory content. This project explores the development of an efficient machine learning model to detect hate speech on social media platforms.
 
