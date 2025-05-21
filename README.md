@@ -68,7 +68,9 @@ ROC AUC Score
 🧪 Results:
 
 Model	Representation	F1 Score (CV)	F1 Score (Unseen Data)	ROC AUC
+
 SVM	   Unigram	      0.918	        0.895	                  0.82
+
 RF	   Unigram	      0.916	        0.922	                  0.83
 
 Both models showed strong performance, with Random Forest slightly outperforming SVM on unseen data.
