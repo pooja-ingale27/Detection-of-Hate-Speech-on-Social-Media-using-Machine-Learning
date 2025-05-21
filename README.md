@@ -23,6 +23,8 @@ Measure performance using standard evaluation metrics
 
 📂 Data Preprocessing
 
+Dataset - https://www.kaggle.com/datasets/mrmorj/hate-speech-and-offensive-language-dataset
+
 Cleaning and normalization
 
 Anonymizing usernames
