@@ -1,25 +1,38 @@
 
 📌 Overview :
+
 With the rise of social media usage worldwide, the freedom of expression online has also led to an increase in harmful and derogatory content. This project explores the development of an efficient machine learning model to detect hate speech on social media platforms.
 
 🎯 Aim :
+
 The primary goal of this project is to build and evaluate machine learning models that can accurately detect hate speech in textual social media content.
 
 ✅ Objectives :
+
 Review existing research and methodologies related to hate speech detection
 
 Preprocess a publicly available social media dataset
+
 Experiment with feature representation techniques (Unigram, Bigram, Trigram)
+
 Train and evaluate machine learning models (SVM and Random Forest)
+
 Measure performance using standard evaluation metrics
 
 🧠 Methodology
+
 📂 Data Preprocessing
+
 Cleaning and normalization
+
 Anonymizing usernames
+
 Censoring explicit words
+
 Tokenization
+
 Stopwords removal
+
 Lemmatization
 
 🔡 Feature Engineering
