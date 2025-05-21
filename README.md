@@ -19,7 +19,7 @@ Train and evaluate machine learning models (SVM and Random Forest)
 
 Measure performance using standard evaluation metrics
 
-🧠 Methodology
+🧠 Methodology:
 
 📂 Data Preprocessing
 
@@ -35,36 +35,59 @@ Stopwords removal
 
 Lemmatization
 
-🔡 Feature Engineering
+
+🔡 Feature Engineering:
+
 Unigram
+
 Bigram
+
 Trigram representations
 
-🤖 Models Used
+
+🤖 Models Used:
+
 Support Vector Machine (SVM)
+
 Random Forest (RF)
 
-📊 Evaluation Metrics
+
+📊 Evaluation Metrics:
+
 Accuracy
+
 Precision
+
 Recall
+
 F1 Score
+
 ROC AUC Score
 
-🧪 Results
+
+🧪 Results:
+
 Model	Representation	F1 Score (CV)	F1 Score (Unseen Data)	ROC AUC
-SVM	Unigram	0.918	0.895	0.82
-RF	Unigram	0.916	0.922	0.83
+SVM	   Unigram	      0.918	        0.895	                  0.82
+RF	   Unigram	      0.916	        0.922	                  0.83
 
 Both models showed strong performance, with Random Forest slightly outperforming SVM on unseen data.
 
-🧾 Conclusion
+🧾 Conclusion:
+
 The Random Forest model was most effective in detecting hate speech, showing strong generalizability on unseen social media content. However, the study also highlights key limitations:
+
 Class imbalance in the dataset
+
 Difficulty in generalizing across platforms and demographics
+
 Need to consider user intent and contextual nuances
 
-🔭 Future Work
+
+🔭 Future Work:
+
 Develop multilingual detection capabilities
+
 Extend detection to multimedia content (audio, video, and images)
+
 Explore deep learning approaches and transformer-based models
