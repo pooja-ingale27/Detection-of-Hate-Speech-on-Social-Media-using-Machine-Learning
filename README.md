@@ -1,13 +1,13 @@
 
-📌 Overview :
+### Overview :
 
 With the rise of social media usage worldwide, the freedom of expression online has also led to an increase in harmful and derogatory content. This project explores the development of an efficient machine learning model to detect hate speech on social media platforms.
 
-🎯 Aim :
+### Aim :
 
 The primary goal of this project is to build and evaluate machine learning models that can accurately detect hate speech in textual social media content.
 
-✅ Objectives :
+### Objectives :
 
 Review existing research and methodologies related to hate speech detection
 
@@ -19,9 +19,9 @@ Train and evaluate machine learning models (SVM and Random Forest)
 
 Measure performance using standard evaluation metrics
 
-🧠 Methodology:
+### Methodology:
 
-📂 Data Preprocessing
+### Data Preprocessing
 
 Dataset - https://www.kaggle.com/datasets/mrmorj/hate-speech-and-offensive-language-dataset
 
@@ -38,7 +38,7 @@ Stopwords removal
 Lemmatization
 
 
-🔡 Feature Engineering:
+### Feature Engineering:
 
 Unigram
 
@@ -47,14 +47,14 @@ Bigram
 Trigram representations
 
 
-🤖 Models Used:
+### Models Used:
 
 Support Vector Machine (SVM)
 
 Random Forest (RF)
 
 
-📊 Evaluation Metrics:
+### Evaluation Metrics:
 
 Accuracy
 
@@ -67,7 +67,7 @@ F1 Score
 ROC AUC Score
 
 
-🧪 Results:
+### Results:
 
 Model	Representation	F1 Score (CV)	F1 Score (Unseen Data)	ROC AUC
 
@@ -77,7 +77,7 @@ RF	   Unigram	      0.916	        0.922	                  0.83
 
 Both models showed strong performance, with Random Forest slightly outperforming SVM on unseen data.
 
-🧾 Conclusion:
+### Conclusion:
 
 The Random Forest model was most effective in detecting hate speech, showing strong generalizability on unseen social media content. However, the study also highlights key limitations:
 
@@ -88,7 +88,7 @@ Difficulty in generalizing across platforms and demographics
 Need to consider user intent and contextual nuances
 
 
-🔭 Future Work:
+### Future Work:
 
 Develop multilingual detection capabilities
 
